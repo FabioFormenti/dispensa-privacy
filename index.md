@@ -143,6 +143,3 @@ Any changes will be published on this page, with the update date at the top.
 ### 9. Contact
 
 Questions about this policy: fformenti65@gmail.com
-# Privacy Policy - Dispensa
-
-Testo in arrivo.
