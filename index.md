@@ -15,7 +15,7 @@ Dispensa è un'app per gestire la dispensa domestica: prodotti, scadenze, liste 
 
 ### In sintesi
 
-- L'app **non richiede alcun account** e **non contiene pubblicità, strumenti di analisi o di segnalazione crash**.
+- L'app **non richiede alcun account**, **non contiene pubblicità** e non include strumenti propri di analisi o di segnalazione crash.
 - Lo sviluppatore **non raccoglie alcun dato personale** e non dispone di server dove inviarli.
 - I dati che inserisci restano **sul tuo dispositivo**.
 - L'app si collega a Internet solo nei casi descritti qui sotto.
@@ -44,6 +44,8 @@ L'app contatta servizi esterni solo nei casi seguenti. In nessun caso vengono in
 **a) Open Food Facts (ricerca prodotto da codice a barre).** Quando scansioni un codice a barre, l'app invia il *solo codice a barre* al servizio pubblico Open Food Facts (`world.openfoodfacts.org`) per ottenere nome, marca, categoria, allergeni e immagine del prodotto. Come per qualsiasi connessione Internet, il servizio vede l'indirizzo IP del dispositivo. Il trattamento è regolato dalla [politica di Open Food Facts](https://world.openfoodfacts.org/privacy). Se il prodotto non è presente o sei offline, puoi inserire i dati a mano.
 
 **b) Download del modello vocale (solo se attivi la dettatura).** La prima volta che attivi la dettatura vocale, l'app scarica un modello di riconoscimento vocale da Hugging Face (`huggingface.co`) e GitHub (`github.com`). È un semplice download di file: non viene inviato nulla di tuo, salvo l'indirizzo IP necessario a qualunque connessione. Dopo il download il riconoscimento funziona offline.
+
+**c) Google ML Kit (scansione dei codici a barre).** Per leggere i codici a barre con la fotocamera l'app usa il componente Google ML Kit. Le immagini della fotocamera vengono elaborate **sul dispositivo** e non vengono inviate. ML Kit può però trasmettere a Google dati tecnici di diagnostica e d'uso (informazioni sul dispositivo e sull'app, metriche di prestazioni, codici di errore), cifrati in HTTPS e, secondo Google, non condivisi con terzi. Dettagli nell'[informativa di Google ML Kit](https://developers.google.com/ml-kit/android-data-disclosure).
 
 ### 4. Condivisione e backup avviati da te
 
@@ -86,7 +88,7 @@ Dispensa is an app for managing your household pantry: products, expiry dates, s
 
 ### Summary
 
-- The app **requires no account** and contains **no ads, analytics or crash-reporting tools**.
+- The app **requires no account**, contains **no ads** and includes no analytics or crash-reporting tools of its own.
 - The developer **does not collect any personal data** and has no servers to receive it.
 - The data you enter stays **on your device**.
 - The app connects to the Internet only in the cases described below.
@@ -115,6 +117,8 @@ The app contacts external services only in the cases below. Your name, account, 
 **a) Open Food Facts (barcode product lookup).** When you scan a barcode, the app sends *only the barcode* to the public Open Food Facts service (`world.openfoodfacts.org`) to retrieve the product's name, brand, category, allergens and image. As with any Internet connection, the service can see your device's IP address. Its handling of data is governed by the [Open Food Facts privacy policy](https://world.openfoodfacts.org/privacy). If the product is not found or you are offline, you can enter the details manually.
 
 **b) Voice model download (only if you turn on dictation).** The first time you enable voice dictation, the app downloads a speech-recognition model from Hugging Face (`huggingface.co`) and GitHub (`github.com`). This is a plain file download: nothing of yours is sent, apart from the IP address needed for any connection. After the download, recognition works offline.
+
+**c) Google ML Kit (barcode scanning).** To read barcodes with the camera, the app uses the Google ML Kit component. Camera images are processed **on your device** and are not sent. ML Kit may however send technical diagnostic and usage data to Google (device and app information, performance metrics, error codes), encrypted over HTTPS and, according to Google, not shared with third parties. See the [Google ML Kit data disclosure](https://developers.google.com/ml-kit/android-data-disclosure).
 
 ### 4. Sharing and backups you initiate
 
