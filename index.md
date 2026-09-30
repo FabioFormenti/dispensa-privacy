@@ -53,7 +53,7 @@ L'app ti permette di condividere la lista della spesa, una lista libera, un'idea
 
 I file di backup esportati contengono i dati della tua dispensa (ed eventualmente le foto): conservali e condividili con attenzione.
 
-Android può inoltre eseguire il backup automatico dei dati delle app sul tuo account Google, secondo le impostazioni del dispositivo. Questa funzione è gestita dal sistema operativo e da Google, non dall'app né dallo sviluppatore.
+Se la funzione è attiva sul tuo telefono, Android può salvare automaticamente i dati dell'app (database, foto e impostazioni; non il modello vocale scaricato) nel backup del tuo account Google e ripristinarli su un nuovo dispositivo. Il backup è gestito dal sistema operativo e da Google, è legato al tuo account e segue le impostazioni e l'informativa di Google; lo sviluppatore non vi ha accesso. Puoi disattivarlo dalle impostazioni di Android.
 
 ### 5. Informazioni sugli allergeni
 
@@ -126,7 +126,7 @@ The app lets you share your shopping list, a free-form list, a recipe idea or a 
 
 Exported backup files contain your pantry data (and optionally photos): store and share them carefully.
 
-Android may also automatically back up app data to your Google account, depending on your device settings. This is handled by the operating system and Google, not by the app or the developer.
+If the feature is turned on on your phone, Android may automatically save the app's data (database, photos and settings; not the downloaded voice model) to your Google account backup and restore it on a new device. The backup is handled by the operating system and Google, is tied to your account and follows Google's settings and privacy policy; the developer has no access to it. You can turn it off in Android settings.
 
 ### 5. Allergen information
 
