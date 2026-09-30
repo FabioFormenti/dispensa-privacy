@@ -6,9 +6,9 @@
 
 ## Italiano
 
-**App:** Dispensa (Android) — `com.fabioformenti.dispensa`
-**Sviluppatore:** Fabio Formenti
-**Contatto:** fformenti65@gmail.com
+**App:** Dispensa (Android) — `com.fabioformenti.dispensa`  
+**Sviluppatore:** Fabio Formenti  
+**Contatto:** fformenti65@gmail.com  
 **Ultimo aggiornamento:** 30 settembre 2026
 
 Dispensa è un'app per gestire la dispensa domestica: prodotti, scadenze, liste della spesa, statistiche di consumo. Questa informativa spiega quali dati tratta l'app e dove finiscono.
@@ -77,9 +77,9 @@ Per domande su questa informativa: fformenti65@gmail.com
 
 ## English
 
-**App:** Dispensa (Android) — `com.fabioformenti.dispensa`
-**Developer:** Fabio Formenti
-**Contact:** fformenti65@gmail.com
+**App:** Dispensa (Android) — `com.fabioformenti.dispensa`  
+**Developer:** Fabio Formenti  
+**Contact:** fformenti65@gmail.com  
 **Last updated:** September 30, 2026
 
 Dispensa is an app for managing your household pantry: products, expiry dates, shopping lists and consumption statistics. This policy explains what data the app handles and where it goes.
